@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="Bootstrap/CSS/bootstrap.css">
+    <link rel="stylesheet" href="Bootstrap/CSS/mdb.css">
+    <link rel="stylesheet" href="Bootstrap/CSS/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link rel="stylesheet" href="Bootstrap/CSS/fontAwesome.css">
+</head>
+<body>
+
+<!----------Navbar------------>
+<nav class="navbar navbar-dark bg-dark">
+    <a href="#" class="navbar-brand">Bootstrap Collapse & Accordion</a>
+</nav>
+
+<!--- ********************* Start Here***************** --->
+
+<div class="container mt-5">
+
+    <!--------------BS Collapse----------->
+  <!--<button class="bg-primary text-white" data-toggle="collapse" data-target="#blue-card">Click me</button>
+
+    <div class="collapse" id="blue-card">
+        <div class="card">
+            <div class="card-body bg-primary text-white">
+                <h2>BS Collapse</h2>
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aliquid aspernatur aut consequatur corporis cum dignissimos dolore dolorum ducimus eligendi est facere illum impedit incidunt ipsum iste laboriosam laudantium officia placeat quam quidem reiciendis, repellat reprehenderit sequi tempora tempore voluptatum.</p>
+            </div>
+        </div>
+    </div>-->
+
+
+    <!---------  BS Accordion--------------->
+    <div class="accordion" id="question-accordion">
+        <!---------- Question1----------->
+        <div class="card">
+            <div class="card-header bg-info text-white" data-toggle="collapse" data-target="#question-1">
+                <h3>What is Bootstrap?</h3>
+            </div>
+            <div class="collapse" id="question-1" data-parent="#question-accordion">
+                <div class="card-body">
+                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad beatae commodi consectetur hic illo ipsum molestias nesciunt nostrum obcaecati, odit officiis praesentium qui quia recusandae, rem temporibus veniam, veritatis voluptatem? Ab ad blanditiis expedita explicabo impedit provident recusandae reprehenderit sit?</p>
+                </div>
+            </div>
+        </div>
+        <!---------- Question2----------->
+        <div class="card">
+            <div class="card-header bg-success text-white" data-toggle="collapse" data-target="#question-2">
+                <h3>What is Material CSS?</h3>
+            </div>
+            <div class="collapse" id="question-2" data-parent="#question-accordion">
+                <div class="card-body">
+                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad beatae commodi consectetur hic illo ipsum molestias nesciunt nostrum obcaecati, odit officiis praesentium qui quia recusandae, rem temporibus veniam, veritatis voluptatem? Ab ad blanditiis expedita explicabo impedit provident recusandae reprehenderit sit?</p>
+                </div>
+            </div>
+        </div>
+        <!---------- Question3----------->
+        <div class="card">
+            <div class="card-header bg-warning text-white" data-toggle="collapse" data-target="#question-3">
+                <h3>What is Angular Material?</h3>
+            </div>
+            <div class="collapse" id="question-3" data-parent="#question-accordion">
+                <div class="card-body">
+                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad beatae commodi consectetur hic illo ipsum molestias nesciunt nostrum obcaecati, odit officiis praesentium qui quia recusandae, rem temporibus veniam, veritatis voluptatem? Ab ad blanditiis expedita explicabo impedit provident recusandae reprehenderit sit?</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<!--- ******************** End Here ***************** --->
+<div style="margin-bottom: 500px"></div>
+
+<!-------------------------Bootstrap JS------------------->
+<script src="Bootstrap/JS/popper.js"></script>
+<script src="Bootstrap/JS/jquery.js"></script>
+<script src="Bootstrap/JS/mdb.js"></script>
+<script src="Bootstrap/JS/bootstrap.js"></script>
+</body>
+</html>

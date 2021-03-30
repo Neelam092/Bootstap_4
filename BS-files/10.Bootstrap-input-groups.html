@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link rel="stylesheet" href="Bootstrap/CSS/fontAwesome.css">
+    <link rel="stylesheet" href="Bootstrap/CSS/bootstrap.css">
+    <link rel="stylesheet" href="Bootstrap/CSS/mdb.css">
+    <link rel="stylesheet" href="Bootstrap/CSS/style.css">
+    <style>
+        .bg-light-blue,.bg-light-blue:focus{
+            background-color: lightblue;
+        }
+    </style>
+</head>
+<body>
+
+<!----------Navbar------------>
+<nav class="navbar navbar-dark bg-dark">
+    <a href="#" class="navbar-brand">Bootstrap Input Groups </a>
+</nav>
+<!--- ********************* Start Here***************** --->
+<div class="container mt-5">
+
+     <!------------ Input group prepend---------->
+    <div class="input-group mb-3">
+        <div class="input-group-prepend">
+            <span class="input-group-text bg-danger  text-white">
+                <i class="fa fa-user-circle lead" ></i>
+            </span>
+        </div>
+        <input type="text" class="form-control bg-light text-white" placeholder="Username">
+    </div>
+
+    <!----------- input group append------------>
+    <div class="input-group mb-4">
+        <input type="text" class="form-control bg-light text-white" >
+        <div class="input-group-append">
+            <span class="input-group-text bg-success text-white">
+                @infosys.com
+            </span>
+        </div>
+    </div>
+
+    <!---------------- Both------------------->
+    <div class="input-group mb-4">
+        <div class="input-group-prepend">
+            <span class="input-group-text bg-warning  text-white">
+                <i class="fa fa-user-circle lead" ></i>
+            </span>
+        </div>
+        <input type="text" class="form-control bg-light text-white" placeholder="Username">
+        <div class="input-group-append">
+            <span class="input-group-text bg-warning text-white">
+                @infosys.com
+            </span>
+        </div>
+    </div>
+
+    <!------- Input group with text area------------>
+    <div class="input-group mb-4">
+        <div class="input-group-prepend">
+            <span class="input-group-text bg-primary text-white">
+                <i class="fa fa-pen-alt"></i>
+            </span>
+        </div>
+        <textarea rows="3" class="form-control bg-light-blue"></textarea>
+    </div>
+
+    <!------------ Redeem options  ---------->
+    <div class="input-group mb-4">
+        <input type="text" class="form-control  text-white" placeholder="Promo Code">
+
+        <div class="input-group-append">
+            <span class="input-group-text bg-dark  text-white">
+                <a href="#" class="text-white ">Redeem</a>
+            </span>
+        </div>
+    </div>
+
+</div>
+<!--- ******************** End Here ***************** --->
+<div style="margin-bottom: 500px"></div>
+
+<!-------------------------Bootstrap JS------------------->
+<script src="Bootstrap/JS/popper.js"></script>
+<script src="Bootstrap/JS/jquery.js"></script>
+<script src="Bootstrap/JS/mdb.js"></script>
+<script src="Bootstrap/JS/bootstrap.js"></script>
+</body>
+</html>
